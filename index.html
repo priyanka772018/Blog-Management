@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <!--CUSTOM STYLESHEET-->
+    <link rel = "stylesheet" href = "style.css"/>
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class = "container nav_container">
+          <a href = "index.html" class = "nav_logo">.blog</a> 
+          <ul class = "nav_items">
+            <li><a href = "blog.html">Blog</a></li>
+            <li><a href = "about.html">About</a></li>
+            <li><a href = "services.html">Services</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            <!--<li><a href = "signin.html">Signin</a></li> -->
+            <li class = "nav_profile">
+                <div class = "avatar">
+                    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilsI73R2eSOGzudww9WMj8Y-VLHOu52QKtrBGQC0J8vH9wmzqJU5APSG7IsLQ9zXKTic&usqp=CAU">
+                </div>
+                <ul>
+                    <li><a href = "dashboard.html">Dashboard</a></li>
+                    <li><a href = "logout.html">Logout</a></li>
+
+                </ul>
+            </li>
+          </ul> 
+
+          <button id ="open_nav-btn"><i class="uil uil-bars"></i></button>
+          <button id= "close_nav-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>  
+    <!--======END OF NAV=======-->
+
+
+    <section class = "featured">
+        <div class = "container featured_container">
+            <div class = "post_thumbnail">
+                <img src= "https://www.domainnamesanity.com/blog/wp-content/uploads/2021/08/dot-blog-1536x1152.jpg">
+            </div>
+            <div class = "post_info">
+                <a href = "category-posts.html" class = "category_button">.blog</a>
+                <h2 class = "post_title"><a href = "post.html">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid!</a></h2>
+                <p class = "post_body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quidem reiciendis in fuga 
+                    consequatur eligendi molestiae, magman assumenda laborum inventore deleniti. Maiores
+                    vel quod at atque officiis sequi blanditiis cuiditate.
+                </p>
+                <div class = "post_author">
+                    <div class = "post_author-avatar">
+                        <img src ="https://images.statusfacebook.com/profile_pictures/indian_boys/indian_boys_09.jpg">
+                    </div>
+                    <div class = "post_author-info">
+                        <h5>By: Jane Doe</h5>
+                        <small>June 10, 2022 - 07:23</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========END OF FEATURED===========-->
+
+
+
+    <section class = "posts">
+       <div class = "container posts_container">
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src= "https://img.freepik.com/free-photo/multi-colored-creativity-close-up-human-eye-generated-by-ai_188544-15574.jpg?q=10&h=200">
+            </div>
+            <div class = "post_info">
+                <a href ="category-posts.html" class= "category_button">Art</a>
+                <h3 class= "post_title"><a href= "post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Solua, odit.</a>
+                    </h3>
+                    <p class= "post_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit dolorem
+                        dolore dicta? Accusantism officials hic modi corrupti expendita laborum laborism.
+                    </p>
+                    <div class= "post_author">
+                        <div class= "post_author-avatar">
+                            <img src= "https://i.pinimg.com/originals/88/aa/3c/88aa3c703827f00d38124e6a06a94133.jpg">
+                        </div>
+                        <div class= "post_author-info">
+                            <h5>By: John Mills</h5>
+                            <small>June 13, 2022 - 10:34</small>
+                        </div>
+                    </div>
+            </div>
+        </article>
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src= "https://travelen.eu/wp-content/uploads/2020/04/Cappadocia-Destination-Travelen-Slider-970x460.jpg">
+            </div>
+            <div class = "post_info">
+                <a href ="" class= "category_button">Travel</a>
+                <h3 class= "post_title"><a href= "post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Solua, odit.</a>
+                    </h3>
+                    <p class= "post_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit dolorem
+                        dolore dicta? Accusantism officials hic modi corrupti expendita laborum laborism.
+                    </p>
+                    <div class= "post_author">
+                        <div class= "post_author-avatar">
+                            <img src= "https://upload.wikimedia.org/wikipedia/commons/0/0b/Priti_Patel_Official_Cabinet_Portrait%2C_September_2021_%28cropped%29.jpg">
+                        </div>
+                        <div class= "post_author-info">
+                            <h5>By: John Mills</h5>
+                            <small>June 13, 2022 - 10:34</small>
+                        </div>
+                    </div>
+            </div>
+        </article>
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src= "https://thumbs.dreamstime.com/b/large-group-african-safari-animals-wildlife-conservation-concept-174172993.jpg">
+            </div>
+            <div class = "post_info">
+                <a href ="" class= "category_button">Wild Life</a>
+                <h3 class= "post_title"><a href= "post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Solua, odit.</a>
+                    </h3>
+                    <p class= "post_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit dolorem
+                        dolore dicta? Accusantism officials hic modi corrupti expendita laborum laborism.
+                    </p>
+                    <div class= "post_author">
+                        <div class= "post_author-avatar">
+                            <img src="https://bibahbandhan.info/wp-content/uploads/2022/08/Matrimony-Id-441.jpg">
+                        </div>
+                        <div class= "post_author-info">
+                            <h5>By: John Mills</h5>
+                            <small>June 13, 2022 - 10:34</small>
+                        </div>
+                    </div>
+            </div>
+        </article>
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src= "https://www.gildshire.com/wp-content/uploads/2019/05/S1.jpg">
+            </div>
+            <div class = "post_info">
+                <a href ="" class= "category_button">Science & Technology</a>
+                <h3 class= "post_title"><a href= "post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Solua, odit.</a>
+                    </h3>
+                    <p class= "post_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit dolorem
+                        dolore dicta? Accusantism officials hic modi corrupti expendita laborum laborism.
+                    </p>
+                    <div class= "post_author">
+                        <div class= "post_author-avatar">
+                            <img src= "https://media.licdn.com/dms/image/C5603AQErUykVZwglyg/profile-displayphoto-shrink_200_200/0/1517433248777?e=1696464000&v=beta&t=LAWPpfmh9wHZoKGQIz--s7j52Y1lucbbUaf5QCXKMCg">
+                        </div>
+                        <div class= "post_author-info">
+                            <h5>By: John Mills</h5>
+                            <small>June 13, 2022 - 10:34</small>
+                        </div>
+                    </div>
+            </div>
+        </article>
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src= "https://media.istockphoto.com/id/1221598575/photo/many-tapas-on-the-rustic-wooden-table-with-black-background.jpg?s=612x612&w=0&k=20&c=Yn1ZdOEC7kOzjD5WqajxEDClJGOR_7nVv-nQBkOvKkc=">
+            </div>
+            <div class = "post_info">
+                <a href ="category-posts.html" class= "category_button">Food</a>
+                <h3 class= "post_title"><a href= "post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Solua, odit.</a>
+                    </h3>
+                    <p class= "post_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit dolorem
+                        dolore dicta? Accusantism officials hic modi corrupti expendita laborum laborism.
+                    </p>
+                    <div class= "post_author">
+                        <div class= "post_author-avatar">
+                            <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4k-PmKYwTWrbBcl0XrAjbZLxCregxet7auPEU098jTMub4-I5b7UMhLonXeKlBh2ly8&usqp=CAU">
+                        </div>
+                        <div class= "post_author-info">
+                            <h5>By: John Mills</h5>
+                            <small>June 13, 2022 - 10:34</small>
+                        </div>
+                    </div>
+            </div>
+        </article>
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src= "https://img.freepik.com/premium-photo/music-black-background-generative-ai_849906-10116.jpg">
+            </div>
+            <div class = "post_info">
+                <a href ="" class= "category_button">Music</a>
+                <h3 class= "post_title"><a href= "post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Solua, odit.</a>
+                    </h3>
+                    <p class= "post_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit dolorem
+                        dolore dicta? Accusantism officials hic modi corrupti expendita laborum laborism.
+                    </p>
+                    <div class= "post_author">
+                        <div class= "post_author-avatar">
+                            <img src= "https://i.pinimg.com/236x/73/ac/a3/73aca33f1ca1b28d3cb142fce4d611e6--glasses-for-men-mens-sunglasses.jpg">
+                        </div>
+                        <div class= "post_author-info">
+                            <h5>By: John Mills</h5>
+                            <small>June 13, 2022 - 10:34</small>
+                        </div>
+                    </div>
+            </div>
+        </article>
+        <article class = "post">
+            <div class = "post_thumbnail">
+                <img src= "https://hips.hearstapps.com/hmg-prod/images/elle-collage-fashion-archive-1671049951.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*">
+            </div>
+            <div class = "post_info">
+                <a href ="" class= "category_button">Fashion</a>
+                <h3 class= "post_title"><a href= "post.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Solua, odit.</a>
+                    </h3>
+                    <p class= "post_body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit dolorem
+                        dolore dicta? Accusantism officials hic modi corrupti expendita laborum laborism.
+                    </p>
+                    <div class= "post_author">
+                        <div class= "post_author-avatar">
+                            <img src= "https://i.pinimg.com/736x/60/7a/c7/607ac7108708bddbc549c37fdef374b0.jpg">
+                        </div>
+                        <div class= "post_author-info">
+                            <h5>By: John Mills</h5>
+                            <small>June 13, 2022 - 10:34</small>
+                        </div>
+                    </div>
+            </div>
+        </article>
+       </div>
+    </section>
+    <!--======END OF POSTS=======-->
+
+
+    <section class= "category_buttons">
+        <div class= "container category_buttons-container">
+            <a href= "" class= "category_button">Art</a>
+            <a href= "" class= "category_button">Wild Life</a>
+            <a href= "" class= "category_button">Travel</a>
+            <a href= "" class= "category_button">Science & Technology</a>
+            <a href= "" class= "category_button">Food</a>
+            <a href= "" class= "category_button">Music</a>
+            
+        </div>
+    </section>
+
+    <!--======END OF CATEGORY BUTTONS======-->
+
+
+
+    <footer>
+        <div class= "footer_socials">
+            <a href="https://www.youtube.com/" target= "_blank"><i class="uil uil-youtube"></i></a>
+            <a href="https://www.facebook.com/" target= "_blank"><i class="uil uil-facebook"></i></i></a>
+            <a href="https://www.instagram.com/" target= "_blank"><i class="uil uil-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target= "_blank"><i class="uil uil-linkedin"></i></a>
+            <a href="https://www.twitter.com/" target= "_blank"><i class="uil uil-twitter"></i></a>
+    </div>    
+    <div class= "container footer_container">
+        <article>
+            <h4>Categories</h4>
+                <ul>
+                    <li><a href="">Art</a></li>
+                    <li><a href="">Wild Life</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Music</a></li>
+                    <li><a href="">Science & Technology</a></li>
+                    <li><a href="">Food</a></li>
+                </ul>
+            
+        </article>
+        <article>
+            <h4>Support</h4>
+                <ul>
+                    <li><a href="">Online Support</a></li>
+                    <li><a href="">Call Numbers</a></li>
+                    <li><a href="">Emails</a></li>
+                    <li><a href="">Social Support</a></li>
+                    <li><a href="">Location</a></li>
+                </ul>
+        </article>
+        <article>
+            <h4>Blog</h4>
+                <ul>
+                    <li><a href="">Safety</a></li>
+                    <li><a href="">Repair</a></li>
+                    <li><a href="">Recent</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Categories</a></li>
+                </ul>    
+        </article>
+        <article>
+            <h4>Permalinks</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul> 
+        </article>
+    </div>
+    <div class= "footer_copyright">
+        <small>Copyright &copy; 2022 WeBlogger</small>
+    </div>
+</footer>
+
+
+<script src= "./main.js"></script>
+</body>
+</html>
